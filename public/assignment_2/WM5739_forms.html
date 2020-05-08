@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAYLANI FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="saylani_logo.png" alt="saylani logo">
+    <h1>Student Registration form</h1>
+    <div id="formContainer">
+
+        <form action="successful_submission.html" id="formA">
+            <div class="rows">
+
+                </label>
+                <label class="labels">FIRST NAME</label>
+                <input type="text" name="fname" class="inputs" size="20" maxlength="30" placeholder="Enter First Name"> (max 30 characters a-z and A-Z)
+            </div>
+
+            <br>
+
+            <div class="rows">
+                <label class="labels">LAST NAME</label>
+                <input type="text" name="lname" class="inputs" size="20" maxlength="30" placeholder="Enter Last Name"> (max 30 characters a-z and A-Z)
+            </div>
+            <br>
+
+            <div class="rows">
+                <label class="labels">DATE OF BIRTH</label>
+                <input type="date" name="dob" class="inputs">
+            </div>
+            <br><br>
+
+            <div class="rows">
+                <label class="labels">EMAIL ID</label>
+                <input type="email" name="email" class="inputs" id="" size="20 " placeholder="Enter your email address ">
+            </div>
+            <br><br>
+            <div class="rows">
+                <label class="labels">MOBILE NUMBER</label>
+                <input type="number" name="" class="inputs" id="" placeholder="Enter mobile number" size="10 " maxlength="10 "> (10 digit number)
+            </div>
+            <br>
+            <div class="rows">
+                <label for="" class="labels">GENDER</label>
+                <label for="" class="inputs">Male</label>
+                <input type="radio" class="inputs" name="gender" value="male" checked="checked " />
+                <label for="" class="inputs">Female</label>
+                <input type="radio" class="inputs" name="gender" value="female" />
+            </div>
+            <br><br>
+            <div class="rows">
+                <label for="" class="labels">ADDRESS</label>
+                <textarea name="text" class="inputs" id=" " cols="30 " rows="5 "></textarea>
+            </div>
+            <br><br><br><br><br><br>
+            <div class="rows">
+                <label for="" class="labels">CITY</label>
+                <input type="text" class="inputs" name="city" size="20" maxlength="30" placeholder="Enter City Name "> (max 30 characters a-z and A-Z)</p>
+            </div>
+
+            <div class="rows">
+                <label for="" class="labels">PIN CODE</label>
+                <input type="number" class="inputs" name="pcode" size="20" maxlength="30" placeholder="Enter Pin Code "> (6-Digits number)
+            </div>
+            <br>
+            <div class="rows">
+                <label for="" class="labels">STATE</label>
+                <input type="text" class="inputs" name="state" size="20" maxlength="30" placeholder="Enter Your State Name "> (max 30 characters a-z and A-Z)
+            </div>
+            <br>
+            <div class="rows">
+                <label for="" class="labels">COUNTRY</label>
+                <input type="text" class="inputs" name="country" size="20" maxlength="30" placeholder="Enter Your Country Name ">
+            </div>
+            <br><br>
+            <div class="rows">
+                <label for="" class="labels">HOBBIES</label>
+                <table style="width: 35%;">
+                    <tr>
+                        <td>
+                            <label for="" class="labels" style="align-items: initial;">Drawing</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" class="inputs" name="hobbies" style="align-items: initial;" id=" " value="drawing" checked="checked">
+                        </td>
+                        <td><label for="" class="labels">Singing</label>
+                        </td>
+                        <td> <input type="checkbox" class="inputs" name="hobbies" id=" " value="singing">
+                        </td>
+                        <td><label for="" class="labels">Dancing</label>
+                        </td>
+                        <td><input type="checkbox" class="inputs" name="hobbies" id=" " value="dancing">
+                        </td>
+                        <td> <label for="" class="labels">Sketching</label>
+                        </td>
+                        <td><input type="checkbox" class="inputs" name="hobbies" id=" " value="sketching">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="" class="labels">Others</label>
+                        </td>
+                        <td><input type="checkbox" class="inputs" name="hobbies" id=" " value="others">
+                        </td>
+                        <td colspan="6">
+                            <textarea name="text" id="" cols="38" rows="1"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br><br><br>
+            <div class="rows">
+                <label for="" class="labels">QUALIFICATION</label>
+                <table>
+                    <tr>
+                        <th scope="col">SN</th>
+                        <th scope="col">Examination</th>
+                        <th scope="col">Board</th>
+                        <th scope="col">Percentage</th>
+                        <th scope="col">Year of Passing</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">1</th>
+                        <th scope="col">Class X</th>
+                        <td><input type="text" class="inputs" name="X-B" size="30" maxlength="30"></td>
+                        <td><input type="text" class="inputs" name="X-P" size="30" maxlength="30"></td>
+                        <td><input type="text" class="inputs" name="X-Y" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <th scope="col">2</th>
+                        <th scope="col">Class XII</th>
+                        <td><input type="text" class="inputs" name="XII-B" size="30" maxlength="30"></td>
+                        <td><input type="text" class="inputs" name="XII-P" size="30" maxlength="30"></td>
+                        <td><input type="text" class="inputs" name="XII-Y" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <th scope="col">3</th>
+                        <th scope="col">Graduation</th>
+                        <td><input type="text" class="inputs" name="G-B" size="30" maxlength="30"></td>
+                        <td><input type="text" class="inputs" name="G-P" size="30" maxlength="30"></td>
+                        <td><input type="text" class="inputs" name="G-Y" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <th scope="col">4</th>
+                        <th scope="col">Masters</th>
+                        <td><input type="text" class="inputs" name="M-B" size="30" maxlength="30"></td>
+                        <td><input type="text" class="inputs" name="M-P" size="30" maxlength="30"></td>
+                        <td><input type="text" class="inputs" name="M-Y" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+
+                        <td colspan="2"></td>
+                        <td style="text-align: center;">(10 Characters Max)</td>
+                        <td colspan="2" style="text-align: left; padding-left: 50px; ">(Upto 2 Decimals)</td>
+                    </tr>
+                </table>
+
+            </div>
+            <br>
+            <div class="rows">
+                <label for="" class="labels">COURSES APPLIED FOR</label>
+                <label for="" class="inputs">BCA</label>
+                <input type="radio" class="inputs" name="courses" value="BCA" />
+                <label for="" class="inputs">B.Com</label>
+                <input type="radio" class="inputs" name="courses" value="BCOM" />
+                <label for="" class="inputs">B.Sc</label>
+                <input type="radio" class="inputs" name="courses" value="BSC" checked="checked " />
+                <label for="" class="inputs">B.A</label>
+                <input type="radio" class="inputs" name="courses" value="BA" />
+            </div>
+            <br><br>
+            <div style="text-align: center;">
+                <button type="submit" name="submit" value="submit" style="color: black;">Submit</button>
+                <button type="reset" name="reset" value="reset" style="color: black;">Reset</button>
+                <br><br>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

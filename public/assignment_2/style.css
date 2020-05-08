@@ -1,0 +1,66 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 615;
+    height: 156;
+}
+
+.success {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+form {
+    border: blueviolet;
+    background-color: blueviolet;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#formContainer {
+    width: 75%;
+    margin: auto;
+}
+
+#formA {
+    width: 100%;
+}
+
+.rows {
+    display: block;
+}
+
+.labels {
+    width: 20%;
+    float: left;
+}
+
+.inputs {
+    width: auto;
+    float: left;
+}
+
+.inputs:focus {
+    background-color: #f5f5f5;
+}
+
+button {
+    text-align: center;
+    color: black;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}

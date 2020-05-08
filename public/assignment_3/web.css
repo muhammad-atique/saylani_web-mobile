@@ -1,0 +1,498 @@
+            .top_row {
+                background-color: #316DC3;
+            }
+            
+            .one {
+                margin-top: 8px;
+            }
+            
+            ul {
+                list-style-type: none;
+                text-align: center;
+            }
+            
+            .icon {
+                padding-left: 12px;
+                padding-right: 12px;
+                display: inline;
+                text-align: center;
+            }
+            
+            .two {
+                text-align: center;
+                color: white;
+                font-size: medium;
+                margin: auto;
+                padding-top: 7px;
+            }
+            
+            .three {
+                font-size: small;
+                text-align: center;
+                margin: auto;
+            }
+            
+            .top_buttons {
+                width: 110px;
+            }
+            
+            .saylani_logo {
+                display: block;
+                text-align: center;
+                margin: auto;
+            }
+            /* 
+.navbar {
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.active_button {
+    background-color: #316DC3;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #316DC3;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.menu_button {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    border: none;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    left: 0;
+}
+
+.dropdown_menu {
+    position: absolute;
+    display: none;
+    background-color: white;
+    color: black;
+    min-width: 250px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 60px;
+}
+
+.dropdown_menu_2 {
+    position: absolute;
+    display: none;
+    background-color: white;
+    color: black;
+    min-width: 250px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 60px;
+}
+
+.dropdown_menu a,
+.dropdown_menu_2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dropdown_menu a:hover,
+.dropdown_menu_2 a:hover {
+    background-color: #316DC3;
+    color: white;
+    text-decoration: none;
+}
+
+.menu_button:hover {
+    border: 1px solid #316DC3;
+    background-color: #316DC3;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.menu:hover .dropdown_menu {
+    display: block;
+}
+
+a .education:hover .dropdown_menu_2 {
+    display: block;
+    position: absolute;
+    left: 20px;
+} */
+            /* Navigation Bar Starts here */
+            
+            .nav_bar {
+                box-sizing: border-box;
+                /* text-align: center; */
+                width: max-content !important;
+            }
+            
+            .nav_bar ul {
+                display: inline-flex;
+                list-style: none;
+            }
+            
+            .nav_bar ul li {
+                width: auto;
+                height: 50px;
+                margin-top: 5px;
+                padding: 15px;
+            }
+            
+            .nav_bar ul li a,
+            .sub_menu li a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .active_home,
+            .nav_bar ul li:hover {
+                background-color: #316DC3;
+                border-radius: 25px;
+            }
+            
+            .nav_bar ul li:hover a {
+                color: white;
+            }
+            
+            .nav_bar ul li:hover .sub_menu ul li a {
+                color: black;
+            }
+            
+            .nav_bar ul li:hover .sub_menu ul li:hover a {
+                color: white;
+            }
+            
+            .nav_bar .fa {
+                margin-left: 8px;
+            }
+            
+            .sub_menu {
+                display: none;
+            }
+            
+            .nav_bar ul li:hover .sub_menu {
+                display: block;
+                position: absolute;
+                background-color: white;
+                color: black;
+                margin-top: 11px;
+                z-index: 1;
+            }
+            
+            .nav_bar ul li:hover .sub_menu ul {
+                display: block;
+            }
+            
+            .nav_bar ul li:hover .sub_menu ul li {
+                width: 190px;
+                border-bottom: 1px dotted #28272E;
+                border-radius: 0;
+                text-align: left;
+                margin-left: -35px;
+            }
+            
+            .nav_bar ul li:hover .sub_menu ul li a {
+                margin: 0px !important;
+            }
+            
+            .nav_bar ul li:hover .sub_menu ul li:last-child {
+                border-bottom: none;
+            }
+            /* .nav_bar ul li:hover .sub_menu ul li:hover {
+                background-color: #316DC3;
+                color: white;
+            } */
+            
+            .nav_bar ul li:hover .sub_menu ul li:hover {
+                background-color: #316DC3;
+                color: white !important;
+            }
+            /* Navigation Bar ends here */
+            
+            .carousel-item img {
+                height: 500px;
+            }
+            
+            .news_bar {
+                height: 30px;
+                background-color: #316DC3;
+                color: white;
+                margin: 15px;
+            }
+            
+            .news_bar marquee span {
+                color: chartreuse;
+            }
+            
+            span .green_newsbar {
+                color: greenyellow;
+            }
+            
+            .intro_para h2 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+            
+            .para_div {
+                color: #666666;
+                /* margin: 20px 300px 30px 300px; */
+                text-align: justify;
+                /* width: auto; */
+            }
+            
+            .title_icon {
+                display: block;
+                margin: auto;
+                text-align: center;
+            }
+            
+            .title_icon h3 {
+                font-weight: bolder;
+                text-decoration: underline;
+                text-decoration-color: #427900;
+                color: #f8f9fa;
+            }
+            
+            .title_icon p {
+                color: #f8f9fa;
+            }
+            
+            .counter_container {
+                background-color: rgba(36, 79, 242, 1);
+                color: white;
+            }
+            
+            .image_icon_div {
+                text-align: center;
+                padding: 20px 0px;
+            }
+            
+            .image_icon_row {
+                padding: 100px 0px;
+            }
+            /* What doing section starts here */
+            
+            .what_doing_container {
+                position: relative;
+            }
+            
+            .what_doing_heading {
+                width: max-content;
+                height: max-content;
+                margin: auto;
+            }
+            /* For Lines below image icon */
+            
+            .image_line {
+                text-align: center;
+                width: 200px;
+                position: relative;
+                margin: 10px auto;
+            }
+            
+            .image_line img {
+                width: 40px;
+                height: 40px;
+            }
+            
+            .image_line::before {
+                content: "";
+                height: 2px;
+                position: absolute;
+                left: 16px;
+                top: 30px;
+                width: 50px;
+                background: #427900;
+            }
+            
+            .image_line::after {
+                content: "";
+                height: 2px;
+                position: absolute;
+                right: 16px;
+                top: 30px;
+                width: 50px;
+                background: #427900;
+            }
+            
+            .what_doing_row {
+                /* padding-left: 180px; */
+                /* padding-right: 180px; */
+            }
+            
+            .what_doing_div {
+                /* border: 1px solid black; */
+                background-color: white;
+                /* padding-top: 60; */
+                padding: 35px;
+                /* border: 1px solid white; */
+                /* margin: 15px; */
+                /* width: 90%; */
+                height: 200px;
+                text-align: center;
+                color: rgba(36, 79, 242, 1);
+                font-weight: bold;
+                font-size: large;
+            }
+            
+            .what_doing_div img {
+                width: 75px;
+                height: 75px;
+            }
+            /* Mission and upcoming projects css */
+            
+            .mission_div {
+                /* height: 50px; */
+            }
+            
+            .mission_icon_div {
+                color: #316DC3;
+                font-size: large;
+                font-family: serif;
+                font-weight: bold;
+                padding-top: 25px;
+                padding-left: 40px;
+                height: 80px;
+            }
+            
+            .mission_icon_div img {
+                width: 35px;
+                height: 35px;
+            }
+            
+            .mission_heading h3 {
+                color: #316DC3;
+                font-family: serif;
+                font-size: normal;
+            }
+            
+            .mission_heading {
+                position: relative;
+            }
+            
+            .mission_heading h3::after {
+                content: "";
+                height: 2px;
+                position: absolute;
+                left: 0px;
+                top: 45px;
+                width: 65px;
+                background: #427900;
+            }
+            
+            .line_bottom {
+                border-bottom: 1px solid #eeeeee;
+                line-height: 45px;
+            }
+            
+            .image_gallery {
+                width: 100%;
+                height: 150px;
+            }
+            
+            .image_gallery_div {
+                width: 50px;
+            }
+            
+            .image_gallery_div:hover .image_gallery {
+                opacity: 0.5;
+            }
+            
+            .footer_main_div {
+                background-color: #28272E;
+                color: #bbbbbb;
+            }
+            
+            .green_phone {
+                color: #427900;
+            }
+            
+            .footer_line_bottom {
+                border-bottom: 1px solid #bbbbbb;
+                line-height: 45px;
+            }
+            
+            .footer_link_heading h4 {
+                color: white;
+                font-family: serif;
+                font-size: normal;
+            }
+            
+            .footer_link_heading {
+                position: relative;
+            }
+            
+            .footer_link_heading h4::after {
+                content: "";
+                height: 2px;
+                position: absolute;
+                left: 0px;
+                top: 44px;
+                width: 65px;
+                background: #427900;
+            }
+            
+            .circle_icon {
+                height: 30px;
+                width: 30px;
+                text-align: center;
+                margin: 3px;
+                background-color: #316DC3;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            
+            .footer_icons li {
+                text-align: left;
+                margin-left: -40px;
+            }
+            
+            .connect_us {
+                color: solid white;
+            }
+            
+            .blue_footer {
+                background-color: #316DC3;
+                color: white;
+                font-size: x-small;
+                height: 40px;
+            }
+            
+            .blue_div {
+                padding-top: 10px;
+            }
+            
+            .top_arrow {
+                float: right;
+            }
+            
+            .top_angle_div {
+                width: 40px;
+                height: 30px;
+                text-align: center;
+                margin-left: 40px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            
+            .top_angle_div:hover {
+                opacity: 0.5;
+                background-color: black;
+            }
